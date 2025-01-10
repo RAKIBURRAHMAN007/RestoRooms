@@ -47,7 +47,7 @@ const Rooms = () => {
 
            
             <div className='mt-16 flex justify-center'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8'>
+                <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-8'>
                     {rooms.map((room) => (
                         <RoomCard key={room.id} room={room} />
                     ))}
