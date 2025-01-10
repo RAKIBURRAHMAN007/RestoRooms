@@ -13,7 +13,7 @@ const RoomCard = ({ room }) => {
             <div className="card border-[#d3a955] border bg-[#181024] text-white hover:bg-white hover:text-black  h-[375px] shadow-xl">
                 <figure>
                     <img
-                        className='h-44 w-full'
+                        className='h-44 object-cover w-full'
                         src={image} />
                 </figure>
                 <div className="card-body">

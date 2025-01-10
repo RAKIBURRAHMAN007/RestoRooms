@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div className=' mt-1 mb-2 w-11/12 mx-auto'>
+        <div className=' mt-1 mb-2 '>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
@@ -27,7 +27,7 @@ const Banner = () => {
                 {/* Slide 1 */}
                 <SwiperSlide>
                     <div className="relative w-full">
-                        <img className='w-full bg-cover h-[200px]  md:h-[500px]' src={img1} alt="Banner 2" />
+                        <img className='w-full object-cover h-[200px]  md:h-[70vh]' src={img1} alt="Banner 2" />
                         <div className="absolute bottom-4 mx-3  md:bottom-10 md:left-5 text-white bg-black/80 md:p-4 p-1 rounded-lg">
                             <h2 className="text-xs md:text-4xl font-bold text-shadow-md">Welcome to RestoRooms</h2>
                             <p className="text-xs md:text-lg mt-2 mb-2">Discover comfortable and affordable rooms for your perfect stay. Book your room now and enjoy a relaxing experience.</p>
@@ -44,7 +44,7 @@ const Banner = () => {
 
                 <SwiperSlide>
                     <div className="relative w-full">
-                        <img className='w-full bg-cover h-[200px] md:h-[500px]' src={img2} alt="Banner 4" />
+                        <img className='w-full object-cover h-[200px]  md:h-[70vh]' src={img2} alt="Banner 4" />
                         <div className="absolute bottom-4 mx-3  md:bottom-10 md:left-5 text-white bg-black/80 md:p-4 p-1 rounded-lg">
                             <h2 className="text-xs md:text-4xl font-bold text-shadow-md">Family-Friendly Stays</h2>
                             <p className=" text-xs md:text-lg mt-2 mb-2">Enjoy a comfortable family vacation in our spacious rooms, with all the amenities needed for a perfect stay.</p>
@@ -57,7 +57,7 @@ const Banner = () => {
 
                 <SwiperSlide>
                     <div className="relative w-full">
-                        <img className='w-full bg-cover h-[200px] md:h-[500px]' src={img3} alt="Banner 3" />
+                        <img className='w-full object-cover h-[200px]  md:h-[70vh]' src={img3} alt="Banner 3" />
                         <div className="absolute bottom-4 mx-3  md:bottom-10 md:left-5 text-white bg-black/80 md:p-4 p-1 rounded-lg">
                             <h2 className="text-xs md:text-4xl font-bold text-shadow-md">Unbeatable Comfort</h2>
                             <p className=" text-xs md:text-lg mt-2 mb-2">Indulge in luxury with our well-appointed rooms. Designed for your convenience, comfort, and a memorable stay.</p>
