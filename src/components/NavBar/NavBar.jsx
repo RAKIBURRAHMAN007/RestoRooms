@@ -11,6 +11,7 @@ const NavBar = () => {
         <li><NavLink to="/rooms" activeClassName="text-white" className="hover:text-yellow-500">Rooms</NavLink></li>
         <li><NavLink to="/mybookings" activeClassName="text-white" className="hover:text-yellow-500">My Bookings</NavLink></li>
         <li><NavLink to="/aboutUs" activeClassName="text-white" className="hover:text-yellow-500">About-Us</NavLink></li>
+        <li><NavLink to="/contactUs" activeClassName="text-white" className="hover:text-yellow-500">Contact-Us</NavLink></li>
     </>
     return (
         <div className="navbar bg-black sticky z-10 top-0 border-b-2 border-[#d3a955]" >
@@ -27,6 +28,7 @@ const NavBar = () => {
                 </div>
                 <a className="btn btn-ghost text-base md:text-2xl text-white">
                     <img className='w-11' src={logo} alt="" />
+                    <p>RestoRooms</p>
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">

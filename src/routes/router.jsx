@@ -12,6 +12,7 @@ import PrivateRouter from "./PrivateRouter";
 import RoomDetails from "../components/RoomDetails/RoomDetails";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import AboutUs from "../components/AboutUs/AboutUs";
+import ContactUs from "../components/ContactUsPage/ContactUs";
 
 const router = createBrowserRouter([
     {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
             {
                 path: '/aboutUs',
                 element: <AboutUs></AboutUs>
+            },
+            {
+                path: '/contactUs',
+                element: <ContactUs></ContactUs>
             }
         ]
     },
