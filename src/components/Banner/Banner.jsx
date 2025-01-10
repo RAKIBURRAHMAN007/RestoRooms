@@ -33,7 +33,7 @@ const Banner = () => {
                             <p className="text-xs md:text-lg mt-2 mb-2">Discover comfortable and affordable rooms for your perfect stay. Book your room now and enjoy a relaxing experience.</p>
 
                             <Link to="/rooms" className="text-white ">
-                                <button className="  border hover:text-red-400 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
+                                <button className="  border hover:bg-slate-700 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
                             </Link>
 
 
@@ -49,7 +49,7 @@ const Banner = () => {
                             <h2 className="text-xs md:text-4xl font-bold text-shadow-md">Family-Friendly Stays</h2>
                             <p className=" text-xs md:text-lg mt-2 mb-2">Enjoy a comfortable family vacation in our spacious rooms, with all the amenities needed for a perfect stay.</p>
                             <Link to="/rooms" className="text-white ">
-                                <button className="  border hover:text-red-400 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
+                                <button className="  border hover:bg-slate-700 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
                             </Link>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Banner = () => {
                             <h2 className="text-xs md:text-4xl font-bold text-shadow-md">Unbeatable Comfort</h2>
                             <p className=" text-xs md:text-lg mt-2 mb-2">Indulge in luxury with our well-appointed rooms. Designed for your convenience, comfort, and a memorable stay.</p>
                             <Link to="/rooms" className="text-white ">
-                                <button className="  border hover:text-red-400 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
+                                <button className="  border hover:bg-slate-700 p-2 text-xs w-30 md:w-40 lg:text-base text-[#d3a955] bg-black  border-[#d3a955] ">Explore More</button>
                             </Link>
                         </div>
                     </div>

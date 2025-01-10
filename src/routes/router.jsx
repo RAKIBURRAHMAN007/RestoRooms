@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/rooms',
-                element: <Rooms></Rooms>,
+                element: <PrivateRouter><Rooms></Rooms></PrivateRouter>,
                 loader: ()=> fetch('https://resto-rooms-server.vercel.app/rooms')
             },
             {

@@ -8,8 +8,15 @@ const NavBar = () => {
     const isHomePage = location.pathname === '/';
     const links = <>
         <li><NavLink to="/" activeClassName="text-white " className="hover:text-yellow-500">Home</NavLink></li>
-        <li><NavLink to="/rooms" activeClassName="text-white" className="hover:text-yellow-500">Rooms</NavLink></li>
-        <li><NavLink to="/mybookings" activeClassName="text-white" className="hover:text-yellow-500">My Bookings</NavLink></li>
+        
+        {
+            user && <li><NavLink to="/rooms" activeClassName="text-white" className="hover:text-yellow-500">All Rooms</NavLink></li>
+        }
+        {
+            user && <li><NavLink to="/mybookings" activeClassName="text-white" className="hover:text-yellow-500">My Bookings</NavLink></li>
+        }
+        
+        
         <li><NavLink to="/aboutUs" activeClassName="text-white" className="hover:text-yellow-500">About-Us</NavLink></li>
         <li><NavLink to="/contactUs" activeClassName="text-white" className="hover:text-yellow-500">Contact-Us</NavLink></li>
     </>
