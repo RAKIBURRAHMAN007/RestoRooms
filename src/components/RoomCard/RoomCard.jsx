@@ -14,6 +14,7 @@ const RoomCard = ({ room }) => {
                 <figure>
                     <img
                         className='h-44 object-cover w-full'
+                        loading="lazy"
                         src={image} />
                 </figure>
                 <div className="card-body">
