@@ -13,6 +13,7 @@ const TopRatedRoomCards = ({ room }) => {
                 <figure>
                     <img
                         className='h-44 object-cover w-full'
+                        loading='eager'
                         src={image} />
                 </figure>
                 <div className="card-body">
