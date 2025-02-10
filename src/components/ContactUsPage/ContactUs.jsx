@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import img from "../../assets/img/Messages-cuate.png";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet";
 
 const CustomerCare = () => {
   const [formData, setFormData] = useState({
@@ -39,6 +40,10 @@ const CustomerCare = () => {
 
   return (
     <div className="customer-care-page bg-gray-900 mt-9 p-6 text-white w-11/12 mx-auto border border-yellow-500">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contract | RestoRooms</title>
+      </Helmet>
       <h1 className="text-3xl font-bold text-center mt-6 mb-6">
         We're Here to Help You
       </h1>
